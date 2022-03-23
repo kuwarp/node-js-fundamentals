@@ -35,3 +35,7 @@
 
 // q.unlinkSync('./manish/manish_prj.md')
 // q.rmdirSync('manish')
+
+
+// Async vs sync
+// const a=require('fs')

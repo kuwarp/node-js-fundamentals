@@ -108,4 +108,5 @@ Loop: Loops the above command until the user presses ctrl+c.
     Update (PUT) - Change something
     Delete (DELETE)- Remove something
    
+7️⃣. What is Os Module?
    
