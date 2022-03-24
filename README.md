@@ -19,7 +19,7 @@
 ```
 
 
-2️⃣.<b>Why we use node.js?</b>
+2️⃣.<b>**Why we use node.js?**</b>
 
  Nodejs is primarily used for non-blocking ,event-driven servers, due to its single-threaded nature(but  capable for multiple task).
  We can used node for traditional website similiar to as php used in backend.
@@ -37,7 +37,7 @@ No, because it is an open source and cross platfrom run time environment.
 
 It is very useful feature of Node js in experimenting with code and to debug js codes.
 
-```
+```Ruby
 🆁🅴🅿🅻 Means:
 
 Read: Reads user's i/p,parses the input into JS data-structure and stores in memory.
@@ -94,41 +94,47 @@ Loop: Loops the above command until the user presses ctrl+c.
 
 6️⃣. <b>CURD Operation in nodejs?</b> 
 
-  <br> CRUD is an acronym for Create, Read, Update and Delete. It is a set of operations we get servers to execute (POST, GET, PUT and DELETE requests respectively). This is what each operation does:
+  <br> CRUD is an acronym for Create, Read, Update and Delete. 
+  It is a set of operations we get servers to execute (POST, GET, PUT and DELETE requests respectively).
+  This is what each operation does:
+  
 ```Ruby
     Create (POST) - Make something
     Read (GET)- Get something
     Update (PUT) - Change something
     Delete (DELETE)- Remove something
-   
    ```
    
 
  7️⃣  [What is Asyncronous in Node.js?](https://github.com/kuwarp/node-js/blob/master/pAsync.js)
- <br>
-      Asyncronous_Context : https://nodejs.org/api/async_context.html#static-method-asyncresourcebindfn-type-thisarg
+
+<br>
+      Asyncronous_Context: https://nodejs.org/api/async_context.html#static-method-asyncresourcebindfn-type-thisarg
   <br>
-      <b> Install async from npm in Node.js using the following command:</b>
-      ``` 
-         npm i async   
-       ```
-        >Use async inside your Node.js project using require() method.
-    ``` Ruby
-       // 👉👉👉👉👉Create a folder using Async fucntion
-
-        const pasync=require('fs')
-
+    
+  <b> Install async from npm in Node.js using the following command:</b>
+  <br>
+  ``` 
+  npm i async
+   ```
+   <br>
+       
+   >Use async inside your Node.js project using require() method.
+        
+ <b> 👉👉👉👉👉Create a folder using Async fucntion</b>
+  
+  ```Ruby
+       const pasync=require('fs')
      pasync.mkdir('pasync',(err)=>{
     console.log('created successfully');
       })
- 
-     ```
+  ```
 
- 8️⃣  <b> What is OS Module?</b>
-    The OS module provides operating system-related utility methods and properties. It can be accessed using:
-
-    ```
-    const os = require("os")
-    
-     ```
+ 8️⃣  <b> What is OS Module?</b><br><br>
+    The OS module provides operating system-related utility methods and properties.
+    It can be accessed using:
+    <br>
+  ```
+  const os = require("os")
+  ```
 
