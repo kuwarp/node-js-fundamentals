@@ -22,9 +22,10 @@ It can be accessed using:
    ```
    - os.constants
      <br>
-     
-     
+    Contains commonly used operating system-specific constants for error codes, process signals, and so on. [^1]    
    - os.cpus()
+    <br>
+    Returns an array of objects containing information about each logical CPU core.[^2]
    - os.devNull
    - os.endianness()
    - os.freemem()
@@ -55,10 +56,25 @@ os.constants
 ```
 <br>
 
-Type  of Constants
+1. Type  of Constants
 
 |  |  |
 |---|---|
 |Signal constants| Error constants|
 |Windows-specific error constants|dlopen constants|
 |Priority constants|libuv constants|
+
+
+2. The Properties included:
+   - model<string>
+   - speed<number> Mhz
+   - times<object>
+     - user<number>
+     - nice<number>
+     - sys<number>
+     - idle<number>
+     - irq<number>
+
+```
+Note: The number of milliseconds the CPU has Spent.
+
