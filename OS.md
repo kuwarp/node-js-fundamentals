@@ -26,22 +26,22 @@ It can be accessed using:
    - os.cpus()
     <br>
     Returns an array of objects containing information about each logical CPU core.[^2]
-   - os.devNull
-   - os.endianness()
-   - os.freemem()
-   - os.getPriority([pid])
-   - os.homedir()
-   - os.hostname()
-   - os.loadavg()
-   - os.networkInterfaces()
-   - os.platform()
-   - os.release()
-   - os.setPriority([pid, ]priority)
-   - os.tmpdir()
-   - os.totalmem()
-   - os.type()
-   - os.uptime()
-   - os.userInfo([options])
+   - os.devNull <br> 
+   - os.endianness()<br>
+   - os.freemem() <br>
+   - os.getPriority([pid]) <br>
+   - os.homedir()<br>
+   - os.hostname()<br>
+   - os.loadavg()<br>
+   - os.networkInterfaces()<br>
+   - os.platform()<br>
+   - os.release()<br>
+   - os.setPriority([pid, ]priority)<br>
+   - os.tmpdir()<br>
+   - os.totalmem()<br>
+   - os.type()<br>
+   - os.uptime()<br>
+   - os.userInfo([options])<br>
    - os.version()
   
 <br>
