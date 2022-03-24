@@ -137,12 +137,9 @@ Loop: Loops the above command until the user presses ctrl+c.
   ```
   const os = require("os")
   ```
-
-    ```Ruby
-    for example ,user want to know their hostname where he currently working:
-
-    var os = require("os")
-
-    console.log(os.hostname());
-    ```
+ >for example ,user want to know their hostname where he currently working:
+  ```Ruby
+var os = require("os")
+  console.log(os.hostname());
+  ```
     
