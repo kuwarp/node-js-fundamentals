@@ -8,10 +8,12 @@ It can be accessed using:
  - OS
    - os.EOL()
    <br>
+   
     ```Ruby
     const os =require('os')
     console.log(os.EOL);
     ```
+    
      The operating system-specific end-of-line marker.
 ```
     \n on POSIX <br>
