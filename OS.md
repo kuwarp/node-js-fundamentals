@@ -29,6 +29,11 @@ It can be accessed using:
    - os.devNull <br> 
    - os.endianness()<br>
    - os.freemem() <br>
+      ``` Ruby 
+      var os=require('os')
+      const freeMemory=os.freemem()
+      console.log(`${freeMory/1024/1024/1024}`);
+      ```
    - os.getPriority([pid]) <br>
    - os.homedir()<br>
    - os.hostname()<br>
@@ -76,5 +81,6 @@ os.constants
      - irq<number>
 
 ```
+<br> 
 Note: The number of milliseconds the CPU has Spent.
 
