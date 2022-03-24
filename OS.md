@@ -6,7 +6,7 @@ It can be accessed using:
  const os = require('os');
 
  -OS
-   -os.EOL()
+  -os.EOL()
    <br>
 
      The operating system-specific end-of-line marker.
@@ -20,26 +20,26 @@ It can be accessed using:
    ```Ruby
    Note: return value is equivalent to process.arch .
    ```
-   -os.constants
-   -os.cpus()
-   -os.devNull
-   -os.endianness()
-   -os.freemem()
-   -os.getPriority([pid])
-   -os.homedir()
-   -os.hostname()
-   -os.loadavg()
-   -os.networkInterfaces()
-   -os.platform()
-   -os.release()
-   -os.setPriority([pid, ]priority)
-   -os.tmpdir()
-   -os.totalmem()
-   -os.type()
-   -os.uptime()
-   -os.userInfo([options])
-   -os.version()
-   -
+    - os.constants
+    - os.cpus()
+    - os.devNull
+    - os.endianness()
+    - os.freemem()
+    - os.getPriority([pid])
+    - os.homedir()
+    - os.hostname()
+    - os.loadavg()
+    - os.networkInterfaces()
+    - os.platform()
+    - os.release()
+    - os.setPriority([pid, ]priority)
+    - os.tmpdir()
+    - os.totalmem()
+    - os.type()
+    - os.uptime()
+    - os.userInfo([options])
+    - os.version()
+    -
 <br>
 
 **OS Constant**
