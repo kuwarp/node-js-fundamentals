@@ -109,3 +109,31 @@ Loop: Loops the above command until the user presses ctrl+c.
     Delete (DELETE)- Remove something
    
    
+
+ 7️⃣  [What is Asyncronous in Node.js?](https://github.com/kuwarp/node-js/blob/master/pAsync.js)
+ <br>
+      Asyncronous_Context : https://nodejs.org/api/async_context.html#static-method-asyncresourcebindfn-type-thisarg
+  <br>
+      <b> Install async from npm in Node.js using the following command:</b>
+      ``` 
+         npm i async   
+       ```
+        >Use async inside your Node.js project using require() method.
+    ``` Ruby
+       // 👉👉👉👉👉Create a folder using Async fucntion
+
+        const pasync=require('fs')
+
+     pasync.mkdir('pasync',(err)=>{
+    console.log('created successfully');
+      })
+ 
+     ```
+
+ 8️⃣  <b> What is OS Module?</b>
+    The OS module provides operating system-related utility methods and properties. It can be accessed using:
+
+    ```
+    const os = require("os")
+    
+     ```
