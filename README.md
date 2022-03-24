@@ -1,4 +1,5 @@
 1️⃣.What is Node js?
+<br>
 
   Node js is an environment for runnning javaScript on Browser side.
   Node js is not a programming language alternate nodejs providing back-end Js runtime environment that runs on the V8 engine and execute Js code outside a web browser.
@@ -55,6 +56,7 @@ Loop: Loops the above command until the user presses ctrl+c.
  you successfully comes into REPL environment ENJOY.......
 ```
  5️⃣ What is Nodejs Core Module?
+ <br>
   
    who gives the power of your code that will be given by Modules , Node.js has a set of core modules that are part of the platform and come with the Node.js installation.
 
@@ -74,9 +76,11 @@ Loop: Loops the above command until the user presses ctrl+c.
  |tls 	 |tty 	 |url 	|
  |util 	 |v8 	 |vm 	| 
  |wasi 	 |worker 	 |zlib |
- |crypto 	|   |   |
+ |crypto 	|   |   | 
+ <br>
   
  Note:  𝖓𝖔𝖉𝖊.𝖏𝖘 𝖍𝖆𝖘 𝖒𝖆𝖓𝖞 𝖇𝖚𝖎𝖑𝖙-𝖎𝖓 𝖒𝖔𝖉𝖚𝖑𝖊𝖘 𝖙𝖍𝖆𝖙 𝖆𝖗𝖊 𝖕𝖆𝖗𝖙 𝖔𝖋 𝖙𝖍𝖊 𝖕𝖑𝖆𝖙𝖋𝖔𝖗𝖒 𝖆𝖓𝖉 𝖈𝖔𝖒𝖊𝖘 𝖜𝖎𝖙𝖍 𝕹𝖔𝖉𝖊.𝖏𝖘 𝖎𝖓𝖘𝖙𝖆𝖑𝖑𝖆𝖙𝖎𝖔𝖓. 𝕿𝖍𝖊𝖘𝖊 𝖒𝖔𝖉𝖚𝖑𝖊𝖘 𝖈𝖆𝖓 𝖇𝖊 𝖑𝖔𝖆𝖉𝖊𝖉 𝖎𝖓𝖙𝖔 𝖙𝖍𝖊 𝖕𝖗𝖔𝖌𝖗𝖆𝖒 𝖇𝖞 𝖚𝖘𝖎𝖓𝖌 𝖙𝖍𝖊 𝖗𝖊𝖖𝖚𝖎𝖗𝖊 𝖋𝖚𝖓𝖈𝖙𝖎𝖔𝖓.
+ <br>
 ```Ruby
 𝕾𝖞𝖓𝖙𝖆𝖝:
 
@@ -86,7 +90,7 @@ Loop: Loops the above command until the user presses ctrl+c.
 ```
 
 
-6️⃣. CURD Operation in nodejs?
+6️⃣. CURD Operation in nodejs? <br>
   <br> CRUD is an acronym for Create, Read, Update and Delete. It is a set of operations we get servers to execute (POST, GET, PUT and DELETE requests respectively). This is what each operation does:
 ```Ruby
     Create (POST) - Make something
