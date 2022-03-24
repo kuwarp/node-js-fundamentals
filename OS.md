@@ -22,17 +22,22 @@ It can be accessed using:
    ```
    - os.constants
      <br>
-    Contains commonly used operating system-specific constants for error codes, process signals, and so on. [^1]    
+    Contains commonly used operating system-specific constants for error codes, process signals, and so on.   
    - os.cpus()
     <br>
-    Returns an array of objects containing information about each logical CPU core.[^2]
+    Returns an array of objects containing information about each logical CPU core.
+     ```Ruby
+     var os=require('os')
+     console.log(os.cpus());
+     ```
+     <br>
    - os.devNull <br> 
    - os.endianness()<br>
    - os.freemem() <br>
       ``` Ruby 
       var os=require('os')
       const freeMemory=os.freemem()
-      console.log(`${freeMory/1024/1024/1024}`);
+      console.log(`${freeMemory/1024/1024/1024}`);
       ```
    - os.getPriority([pid]) <br>
    - os.homedir()<br>
@@ -40,10 +45,20 @@ It can be accessed using:
    - os.loadavg()<br>
    - os.networkInterfaces()<br>
    - os.platform()<br>
+   ``` Ruby 
+      var os=require('os')
+      console.log(os.platform());
+      ```
    - os.release()<br>
    - os.setPriority([pid, ]priority)<br>
    - os.tmpdir()<br>
    - os.totalmem()<br>
+   ``` Ruby 
+      var os=require('os')
+      const totalMemory=os.totalmem()
+      console.log(`${totalMemory/1024/1024/1024}`);
+      ```
+      <br> 
    - os.type()<br>
    - os.uptime()<br>
    - os.userInfo([options])<br>

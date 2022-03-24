@@ -3,6 +3,7 @@
 // console.log("Architecture: " + os.arch());
 // 👉👉👉 Detect to hostname of getSystemErrorMap..
 console.log(os.hostname());
+console.log(os.cpus());
 
 // 👉👉👉👉👉os.cpus() :Returns an array of objects containing information about each logical CPU core.
 
