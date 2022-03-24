@@ -130,7 +130,7 @@ Loop: Loops the above command until the user presses ctrl+c.
       })
   ```
 
- 8️⃣  <b> What is OS Module?</b><br><br>
+ 8️⃣  <b> [What is OS Module?](/OS.md)</b><br><br>
     The OS module provides operating system-related utility methods and properties.
     It can be accessed using:
     <br>
