@@ -138,3 +138,5 @@ Loop: Loops the above command until the user presses ctrl+c.
   const os = require("os")
   ```
 
+
+[internal](/OS.md)
